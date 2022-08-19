@@ -1,0 +1,81 @@
+.topMainMenu {
+    width: 100%;
+
+    border-bottom: 1px solid #ccc;
+    margin: 0 auto;
+}
+
+.topHeader {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    height: 90px;
+
+    width: 70%;
+    box-sizing: border-box;
+}
+
+.topNav {
+    display: flex;
+}
+
+.topLogo {
+    display: block;
+    width: 124px;
+    height: 38px;
+    margin-top: 26px;
+    margin-right: 30px;
+}
+
+.topLogo::before {
+    display: block;
+    content: "";
+    width: 124px;
+    height: 38px;
+    background-image: url(../../assets/Logo-hodu.png);
+    background-size: 124px 38px;
+}
+
+.topSearch {
+    box-sizing: border-box;
+    border: 2px solid #21bf48;
+    border-radius: 50px;
+    width: 400px;
+    height: 46px;
+    margin-top: 22px;
+    padding-left: 22px;
+}
+
+.topSearch::after {
+    display: block;
+    content: "";
+    width: 28px;
+    height: 28px;
+    background-image: url(../../assets/search.svg);
+    background-size: 28px;
+}
+
+.topUl {
+    display: flex;
+    box-sizing: border-box;
+}
+
+.topUl li {
+    width: 56px;
+    font-size: 12px;
+    line-height: 14px;
+    padding-top: 56px;
+}
+
+.topUl .cart {
+    background: url(../../assets/icon-shopping-cart.svg) no-repeat 32px/32px;
+    background-position-y: 21px;
+    background-position-x: 6px;
+    padding-right: 26px;
+}
+
+.topUl .login {
+    background: url(../../assets/icon-user.svg) no-repeat 32px/32px;
+    background-position-y: 21px;
+    background-position-x: 2px;
+}
