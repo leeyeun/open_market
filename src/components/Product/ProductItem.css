@@ -1,0 +1,16 @@
+.productImage {
+    width: 380px;
+    height: 380px;
+}
+
+.productName {
+    font-size: 16px;
+}
+
+.productInfo {
+    font-size: 18px;
+}
+
+.prooductPrice {
+    font-size: 24px;
+}
