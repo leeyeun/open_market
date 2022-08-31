@@ -4,7 +4,7 @@ function ProductItem(productList) {
     console.log(productList);
     console.log(productList.productList.product_name);
     return (
-        <div>
+        <div className="productItem">
             <img
                 className="productImage"
                 src={productList.productList.image}

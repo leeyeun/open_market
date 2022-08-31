@@ -20,7 +20,7 @@ function ProductList() {
     }, []);
 
     return (
-        <>
+        <div className="productWrap">
             {allProductList.results && allProductList.results.length > 0
                 ? allProductList.results.map((allProductList, id) => {
                       return (
@@ -30,7 +30,7 @@ function ProductList() {
                       );
                   })
                 : null}
-        </>
+        </div>
     );
 }
 
