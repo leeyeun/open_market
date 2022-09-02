@@ -64,18 +64,22 @@
     width: 56px;
     font-size: 12px;
     line-height: 14px;
-    padding-top: 56px;
 }
 
-.topUl .cart {
+.cartBtn {
     background: url(../../assets/icon-shopping-cart.svg) no-repeat 32px/32px;
     background-position-y: 21px;
-    background-position-x: 6px;
-    padding-right: 26px;
-}
-
-.topUl .login {
-    background: url(../../assets/icon-user.svg) no-repeat 32px/32px;
-    background-position-y: 21px;
     background-position-x: 2px;
+    display: block;
+    padding-top: 56px;
+    width: 56px;
+}
+.loginBtn {
+    background: url(../../assets/icon-user.svg) no-repeat 50% 32px/32px;
+    background-position-y: 21px;
+    background-position-x: 28px;
+    display: block;
+    padding-top: 56px;
+    padding-left: 26px;
+    width: 56px;
 }

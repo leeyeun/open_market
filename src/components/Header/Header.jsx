@@ -15,10 +15,14 @@ function Header() {
                 </nav>
                 <ul className="topUl">
                     <li className="cart">
-                        <Link to="/cart">장바구니</Link>
+                        <Link to="/cart" className="cartBtn">
+                            장바구니
+                        </Link>
                     </li>
                     <li className="login">
-                        <Link to="/login">로그인</Link>
+                        <Link to="/login" className="loginBtn">
+                            로그인
+                        </Link>
                     </li>
                 </ul>
             </header>
