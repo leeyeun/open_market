@@ -1,0 +1,19 @@
+.LoginController {
+    width: 550px;
+    margin: 0 auto;
+}
+
+.LoginTypeBtn {
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 22px;
+    border: 1px solid #c4c4c4;
+    border-radius: 10px;
+    width: 275px;
+    box-sizing: border-box;
+    padding: 20px 77px;
+    margin: 0;
+}
+.disabled {
+    background-color: #f2f2f2;
+}
