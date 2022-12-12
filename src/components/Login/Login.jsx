@@ -5,6 +5,7 @@ import LoginController from "./LoginController";
 import SellerLogin from "./SellerLogin";
 import LogoImage from "../../assets/Logo-hodu.png";
 import "./Login.css";
+import { Link } from "react-router-dom";
 function Login() {
   const [buyerClick, setBuyerClick] = useState(true);
   const [sellerClick, setSellerClick] = useState(false);
@@ -41,6 +42,12 @@ function Login() {
       ) : (
         <SellerLogin />
       )}
+      <p className="loginOther">
+        <Link to="/signup" className="signUpLink">
+          회원가입
+        </Link>
+        <Link to="/">비밀번호 찾기</Link>
+      </p>
     </div>
   );
 }
